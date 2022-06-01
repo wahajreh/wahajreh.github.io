@@ -1,0 +1,39 @@
+<div class="p-3" style="background-color: #FAFBFC;">
+    <div style="height: 20px;"></div>
+
+    <!-- <div class=" container"> -->
+    <div class="row m-auto " style="width: 100%;">
+
+        <div class=" col-5">
+            <div class="row">
+                <div class="col-10 pt-2 m-3" [ngClass]="{activeB: div1==true,diactive: div11==true}"
+                    (click)="main_imagS(1)">
+                    <h1 class="text-center">Shedule</h1>
+                    <p class="text-center">Schedule your online meeting <br> in just a few clicks</p>
+                </div>
+                <div class="col-10 pt-2 m-3" [ngClass]="{activeB: div2==true,diactive: div12==true}"
+                    (click)="main_imagS(2)">
+                    <h1 class="text-center">Estimate</h1>
+                    <p class="text-center">Get On the vedio call to see <br>the job, write notes and take photos</p>
+                </div>
+
+                <div class="col-10 pt-2 m-3" [ngClass]="{activeB: div3==true,diactive: div13==true}"
+                    (click)="main_imagS(3)">
+                    <h1 class="text-center">Send</h1>
+                    <p class="text-center">Go through the notes, view the photos,<br>prepare and send your estimate
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-7  ">
+            <img [src]="main_img" style="border: 2px solid black; width: 100%; height: 500px;" vclass=""
+                alt="Responsive image">
+
+        </div>
+        <!-- </div> -->
+
+    </div>
+    <div style="height: 20px;"></div>
+
+</div>
